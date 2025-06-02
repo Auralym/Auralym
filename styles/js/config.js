@@ -330,7 +330,7 @@ charadex.page.masterlist = {
     toggle: true,
     parameters: {
       'Design Type': charadex.sheet.options.designTypes,
-      'Status': charadex.sheet.options.statuses,
+      'Tendency': charadex.sheet.options.tendency,
       'Rarity': charadex.sheet.options.rarity,
     }
   },
