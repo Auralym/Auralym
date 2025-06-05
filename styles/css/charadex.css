@@ -764,13 +764,34 @@ p:last-child {
   color: var(--cd-rarity-rare-txt);
 }
 
-.badge-tendency {
+.badge-elder {
   background-color: var(--cd-rarity-rare-bg);
   color: var(--cd-rarity-rare-txt);
 }
 
-.badge-legendary,
-.badge-mythic {
+.badge-wrath {
+  background-color: var(--cd-rarity-rare-bg);
+  color: var(--cd-rarity-rare-txt);
+}
+
+.badge-pride {
+  background-color: var(--cd-rarity-rare-bg);
+  color: var(--cd-rarity-rare-txt);
+}
+
+.badge-greed {
+  background-color: var(--cd-rarity-rare-bg);
+  color: var(--cd-rarity-rare-txt);
+}
+
+.badge-lust {
+  background-color: var(--cd-rarity-rare-bg);
+  color: var(--cd-rarity-rare-txt);
+}
+
+
+.badge-gluttony,
+.badge-sloth {
   background-color: var(--cd-rarity-legendary-bg);
   color: var(--cd-rarity-legendary-txt);
 }
