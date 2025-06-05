@@ -44,8 +44,8 @@ charadex.sheet = {
 
     designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Legendary'],
-    species: ['Aurim', 'Lilim'],
+    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Legendary', 'Tendency'],
+    species: ['Aurim', 'Lilim', 'Either'],
     tendency: ['Greed', 'Wrath', 'Gluttony', 'Lust', 'Envy', 'Pride', 'Sloth'],
     itemTypes: ['All', 'Currency', 'Trait', 'Misc'],
     traitTypes: ['All', 'Horns', 'Halos', 'Limbs', 'Tails', 'Wings', 'Ears', 'Misc']
