@@ -44,7 +44,7 @@ body {
   /* Borders
   ================================================================ */
   --cd-border-color: #d3b093;
-  --cd-border-width: 2px;
+  --cd-border-width: 1px;
   --cd-border-style: solid;
   --cd-border-radius: 1rem;
 
@@ -732,7 +732,7 @@ p:last-child {
   font-family: var(--cd-header-font-family);
   display: flex;
   padding: 1.5rem;
-  height: 250px;
+  height: 50px;
   font-weight: 800;
   font-size: 2.5rem;
 }
