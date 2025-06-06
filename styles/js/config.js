@@ -88,7 +88,7 @@ charadex.page.items = {
     parameters: {
       'Type': charadex.sheet.options.itemTypes,
       'Rarity': charadex.sheet.options.rarity,
-       'Tendency': charadex.sheet.options.tendency,
+       
     }
   },
 
@@ -148,7 +148,7 @@ charadex.page.traits = {
   },
 
   search: {
-    toggle: false,
+    toggle: true,
     filterToggle: true,
     parameters: ['All', 'Trait', 'Rarity']
   },
