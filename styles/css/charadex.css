@@ -732,8 +732,9 @@ p:last-child {
   display: flex;
   justify-content: center;
 align-items: center;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
   padding: 1.5rem;
+  background-position: center;
   height: 250px;
   font-weight: 800;
   font-size: 2.5rem;
