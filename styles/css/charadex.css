@@ -62,8 +62,8 @@ body {
   /* ============================================================= */
   /* Main Fonts
   ================================================================ */
-  --cd-body-font-family: 'Instrument Sans', sans-serif;
-  --cd-header-font-family: 'Bodoni Moda', sans-serif;
+  --cd-body-font-family: "Instrument Sans", sans-serif;
+  --cd-header-font-family: "Bodoni Moda", serif;
   
   /* ============================================================= */
   /* Rarities
