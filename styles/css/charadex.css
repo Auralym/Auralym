@@ -44,7 +44,7 @@ body {
   /* Borders
   ================================================================ */
   --cd-border-color: #d3b093;
-  --cd-border-width: 3px;
+  --cd-border-width: 2px;
   --cd-border-style: solid;
   --cd-border-radius: 1rem;
 
@@ -63,7 +63,7 @@ body {
   /* Main Fonts
   ================================================================ */
   --cd-body-font-family: 'Instrument Sans', sans-serif;
-  --cd-header-font-family: 'Bodoni Moda SC', serif;
+  --cd-header-font-family: 'GFS Didot', serif;
   
   /* ============================================================= */
   /* Rarities
