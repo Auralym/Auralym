@@ -46,7 +46,7 @@ charadex.sheet = {
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Elder'],
     species: ['Aurim', 'Lilim', 'Either'],
-    tendency: ['Greed', 'Wrath', 'Gluttony', 'Lust', 'Envy', 'Pride', 'Sloth'],
+    tendency: ['Greed', 'Wrath', 'Gluttony', 'Lust', 'Envy', 'Pride', 'Sloth', 'Standard'],
     itemTypes: ['All', 'Currency', 'Trait', 'Misc'],
     traitTypes: ['All', 'Horns', 'Halos', 'Limbs', 'Tails', 'Wings', 'Ears', 'Misc']
 
