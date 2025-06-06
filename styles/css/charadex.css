@@ -730,6 +730,9 @@ p:last-child {
   border-radius: var(--cd-border-radius);
   font-family: var(--cd-header-font-family);
   display: flex;
+  justify-content: center;
+align-items: center;
+  background-repeat: no-repeat
   padding: 1.5rem;
   height: 250px;
   font-weight: 800;
