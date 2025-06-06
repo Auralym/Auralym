@@ -727,7 +727,6 @@ p:last-child {
 /* For the hero image in the index */
 .cd-hero-title {
   color: var(--cd-primary-color);
-  background-color: var(--cd-faded-background-color);
   border-radius: var(--cd-border-radius);
   font-family: var(--cd-header-font-family);
   display: flex;
@@ -737,7 +736,10 @@ p:last-child {
   font-size: 2.5rem;
 }
 
-@media (width: 200px) {
+@media (width: 200px) 
+justify-content: center;
+align-items: center;
+{
   .cd-hero-title {
     letter-spacing: 2px;
     font-size: 5rem;
