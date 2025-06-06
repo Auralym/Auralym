@@ -27,9 +27,9 @@ body {
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color: #000;
+  --cd-body-background-color: ##2A2525;
   --cd-content-background-color: #393D3F;
-  --cd-faded-background-color: #623A30;
+  --cd-faded-background-color: #8B3720;
 
   /* Background Extras */
   --cd-body-background-image: url();
@@ -37,8 +37,8 @@ body {
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color: #303030;
-  --cd-faded-text-color: #575757;
+  --cd-body-text-color: #fff;
+  --cd-faded-text-color: #fff;
 
   /* ============================================================= */
   /* Borders
