@@ -27,7 +27,7 @@ body {
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color: #d3beae;
+  --cd-body-background-color: #dc3100;
   --cd-content-background-color: #ffffff;
   --cd-faded-background-color: #f8f8f8;
 
@@ -62,7 +62,7 @@ body {
   /* ============================================================= */
   /* Main Fonts
   ================================================================ */
-  --cd-body-font-family: 'Montserrat', sans-serif;
+  --cd-body-font-family: 'Instrument', sans-serif;
   --cd-header-font-family: 'Comfortaa', sans-serif;
   
   /* ============================================================= */
