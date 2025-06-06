@@ -88,6 +88,7 @@ charadex.page.items = {
     parameters: {
       'Type': charadex.sheet.options.itemTypes,
       'Rarity': charadex.sheet.options.rarity,
+       'Tendency': charadex.sheet.options.tendency,
     }
   },
 
@@ -98,7 +99,7 @@ charadex.page.items = {
   },
 
   search: {
-    toggle: true,
+    toggle: false,
     filterToggle: true,
     parameters: ['All', 'Item', 'Rarity']
   },
@@ -142,12 +143,12 @@ charadex.page.traits = {
 
   fauxFolder: {
     toggle: true,
-    folderProperty: 'Type',
-    parameters: charadex.sheet.options.traitTypes,
+    folderProperty: 'Tendency',
+    parameters: charadex.sheet.options.tendency,
   },
 
   search: {
-    toggle: true,
+    toggle: false,
     filterToggle: true,
     parameters: ['All', 'Trait', 'Rarity']
   },
