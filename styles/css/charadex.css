@@ -15,7 +15,7 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #710c04;
+  --cd-primary-color: #4a1915;
   --cd-primary-text-color: #fff;
 
   /* ============================================================= */
@@ -29,7 +29,7 @@ body {
   ================================================================ */
   --cd-body-background-color: #2A2525;
   --cd-content-background-color: #403D3D;
-  --cd-faded-background-color: #D4D4D4;
+  --cd-faded-background-color: #5c5959;
 
   /* Background Extras */
   --cd-body-background-image: url();
