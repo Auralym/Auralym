@@ -15,7 +15,7 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #752a2a;
+  --cd-primary-color: #703434;
   --cd-primary-text-color: #fff;
 
   /* ============================================================= */
@@ -96,7 +96,7 @@ body {
   --cd-navbar-dropdown-background-hover: var(--cd-primary-color);
 
   /* Link/Text */
-  --cd-navbar-dropdown-link-color: var(--cd-navbar-link-color);
+  --cd-navbar-dropdown-link-color: var(--cd-primary-text-color);
   --cd-navbar-dropdown-link-color-hover: var(--cd-primary-text-color);
 
   /* Divider */
