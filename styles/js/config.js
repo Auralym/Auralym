@@ -38,6 +38,7 @@ charadex.sheet = {
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
+    adopts:        "adopts",
   },
 
   options: {
@@ -381,6 +382,85 @@ charadex.page.masterlist = {
   }
 
 };
+
+
+/* Open Adopts
+/* --------------------------------------------------------------- */
+charadex.page.adopts = {
+
+  sheetPage: charadex.sheet.pages.adopts,
+  sitePage: 'adopts',
+  dexSelector: 'charadex',
+  profileProperty: 'design',
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "desc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: true,
+    parameters: {
+      'Design Type': charadex.sheet.options.designTypes,
+      'Tendency': charadex.sheet.options.tendency,
+      'Rarity': charadex.sheet.options.rarity,
+    }
+  },
+
+  fauxFolder: {
+    toggle: true,
+    folderProperty: 'Species',
+    parameters: charadex.sheet.options.species,
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Species', 'Tendency', 'Owner', 'Designer', 'Artist', 'Traits']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+  relatedData: {
+
+    [charadex.sheet.pages.masterlistLog]: {
+
+      sheetPage: charadex.sheet.pages.masterlistLog,
+      primaryProperty: 'id',
+      relatedProperty: 'id',
+      dexSelector: 'log',
+      profileProperty: 'design',
+      profileToggle: false,
+
+      sort: {
+        toggle: true,
+        key: "timestamp",
+        order: "desc",
+        parameters: []
+      },
+
+      pagination: {
+        toggle: true,
+        bottomToggle: false,
+        amount: 12,
+      },
+
+    }
+
+  }
+
+};
+
 
 /* Inventory
 /* --------------------------------------------------------------- */
