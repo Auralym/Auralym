@@ -16,7 +16,7 @@ body {
   /* Primary Color
   ================================================================ */
   --cd-primary-color: #a34d4d;
-  --cd-primary-text-color: #d3b093;
+  --cd-primary-text-color: #fff;
 
   /* ============================================================= */
   /* Secondary Color
@@ -53,8 +53,8 @@ body {
   ================================================================ */
   --cd-navbar-background-color: #403D3D;
   --cd-navbar-border-color: #d3b093;
-  --cd-navbar-brand-color: var(--cd-primary-color);
-  --cd-navbar-brand-color-hover: var(--cd-secondary-color);
+  --cd-navbar-brand-color: #d3b093;
+  --cd-navbar-brand-color-hover: var(--cd-primary-color);
   --cd-navbar-text-color: fff;
   --cd-navbar-link-color: fff;
   --cd-navbar-link-color-hover: var(--cd-primary-color);
