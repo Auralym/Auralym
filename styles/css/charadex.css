@@ -96,7 +96,7 @@ body {
   --cd-navbar-dropdown-background-hover: var(--cd-primary-color);
 
   /* Link/Text */
-  --cd-navbar-dropdown-link-color: var(--cd-primary-text-color);
+  --cd-navbar-dropdown-link-color: var(--cd-secondary-text-color);
   --cd-navbar-dropdown-link-color-hover: var(--cd-primary-text-color);
 
   /* Divider */
@@ -144,7 +144,7 @@ body {
 
   /* Text */
   --cd-pagination-text-color: #d3b093;
-  --cd-pagination-text-color-hover: var(--cd-primary-color);
+  --cd-pagination-text-color-hover: #d3b093;
 
   /* Border */
   --cd-pagination-border-radius: var(--cd-border-radius);
@@ -553,7 +553,7 @@ a.badge.badge-primary:active {
 /* ============================================================= */
 
 .text-primary {
-  color: var(--cd-primary-color) !important;
+  color: var(--cd-secondary-color) !important;
 }
 
 .bg-faded {
