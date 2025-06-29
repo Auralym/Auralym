@@ -137,21 +137,21 @@ charadex.page.traits = {
   filters: {
     toggle: true,
     parameters: {
-      'Type': charadex.sheet.options.traitTypes,
+      'Tendency': charadex.sheet.options.tendency,
       'Rarity': charadex.sheet.options.rarity,
     }
   },
 
   fauxFolder: {
     toggle: true,
-    folderProperty: 'Tendency',
-    parameters: charadex.sheet.options.tendency,
+    folderProperty: 'Species',
+    parameters: charadex.sheet.options.species,
   },
 
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Tendency', 'Rarity']
   },
 
   prevNext: {
