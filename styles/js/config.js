@@ -151,7 +151,7 @@ charadex.page.traits = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Tendency', 'Rarity']
+    parameters: ['All', 'Tendency', 'Type', 'Species', 'Description', 'Rarity']
   },
 
   prevNext: {
