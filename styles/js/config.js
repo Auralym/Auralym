@@ -603,7 +603,7 @@ charadex.page.index = {
 
   designs: {
     ... charadex.page.masterlist,
-    dexSelector: 'design',
+    dexSelector: 'subspecies',
     amount: 4,
   }
 
