@@ -786,7 +786,7 @@ align-items: center;
 /* Affiliates */
 .cd-affiliates-background {
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   min-height: 150px;
 }
 
