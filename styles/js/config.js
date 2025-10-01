@@ -49,7 +49,7 @@ charadex.sheet = {
     species: ['Aurim', 'Lilim', 'Either'],
     tendency: ['Greed', 'Wrath', 'Gluttony', 'Lust', 'Envy', 'Pride', 'Sloth', 'Standard'],
     itemTypes: ['All', 'Currency', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Horns', 'Halos', 'Limbs', 'Tails', 'Wings', 'Ears', 'Misc']
+    traitTypes: ['All', 'Horns', 'Halos', 'Head', 'Limbs', 'Body', 'Wings', 'Tail', 'Extra Anatomy', 'Growths']
 
   }
 
@@ -139,6 +139,7 @@ charadex.page.traits = {
     parameters: {
       'Tendency': charadex.sheet.options.tendency,
       'Rarity': charadex.sheet.options.rarity,
+        'Type': charadex.sheet.options.type,
     }
   },
 
@@ -598,7 +599,7 @@ charadex.page.index = {
   staff: {
     ... charadex.page.staff,
     dexSelector: 'staff',
-    amount: 6,
+    amount: 7,
   },
 
   designs: {
