@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   );
 
 
-  /* Affiliate
+  /* Affiliates
   ===================================================================== */
-  let prompts = await charadex.initialize.page(null, charadex.page.index.affiliates, (arr) => {
+  let affiliates = await charadex.initialize.page(null, charadex.page.index.affiliates, (arr) => {
 
       // Splice the silly little array
       let sliceAmount = charadex.page.index.affiliates.amount || 4;
