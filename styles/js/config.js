@@ -39,6 +39,7 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     adopts:        "adopts",
+    affiliates:    "affiliates",
   },
 
   options: {
@@ -168,6 +169,53 @@ charadex.page.prompts = {
 
   sheetPage: charadex.sheet.pages.prompts,
   sitePage: 'prompts',
+  dexSelector: 'charadex',
+  profileProperty: 'title',
+
+  sort: {
+    toggle: true,
+    key: "enddate",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {
+      'TBA': [],
+    }
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: false,
+    parameters: ['Title']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+/* Prompts
+/* --------------------------------------------------------------- */
+charadex.page.affiliates = {
+
+  sheetPage: charadex.sheet.pages.affiliates,
+  sitePage: 'affiliates',
   dexSelector: 'charadex',
   profileProperty: 'title',
 
@@ -594,6 +642,12 @@ charadex.page.index = {
     ... charadex.page.prompts,
     dexSelector: 'prompt',
     amount: 3,
+  },
+
+   affiliates: {
+    ... charadex.page.affiliates,
+    dexSelector: 'affiliates',
+    amount: 4,
   },
 
   staff: {
