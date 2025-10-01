@@ -656,12 +656,6 @@ charadex.page.index = {
     amount: 7,
   },
 
-  designs: {
-    ... charadex.page.masterlist,
-    dexSelector: 'design',
-    amount: 4,
-  }
-
 };
 
 
