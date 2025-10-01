@@ -783,6 +783,47 @@ align-items: center;
 }
 
 
+/* Affiliates */
+.cd-affiliates-background {
+  background-position: center;
+  background-size: cover;
+  min-height: 150px;
+}
+
+/* Makes sure your text formatting is preserved from the sheet */
+/* Best for large areas like notes */
+.cd-text-pre {
+  white-space: break-spaces;
+}
+
+/* For the hero image in the index */
+.cd-hero-title {
+  color: var(--cd-primary-color);
+  border-radius: var(--cd-border-radius);
+  font-family: var(--cd-header-font-family);
+  display: flex;
+  justify-content: center;
+align-items: center;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  background-position: center;
+  height: 360px;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+@media (width: 200px) 
+justify-content: center;
+align-items: center;
+{
+  .cd-hero-title {
+    letter-spacing: 2px;
+    font-size: 5rem;
+  }
+}
+
+
+
 /* ============================================================= */
 /* Rarity
 /* ============================================================= */
