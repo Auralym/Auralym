@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }, (data) => {
 
       // Add the silly little prompt stuff here too
-      $('.cd-prompt-background').each(function(i) {
+      $('.cd-affiliates-background').each(function(i) {
         const element = $(this);
         const image = data.array[i]?.image;
         element.attr('style', `background-image: url(${image})`);
