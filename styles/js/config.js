@@ -139,7 +139,6 @@ charadex.page.traits = {
     toggle: true,
     parameters: {
       'Tendency': charadex.sheet.options.tendency,
-      'Rarity': charadex.sheet.options.rarity,
         'Type': charadex.sheet.options.type,
     }
   },
