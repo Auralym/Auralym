@@ -343,6 +343,9 @@ a:active {
   border: none;
   margin-top: 0;
 }
+.navbar-nav {
+padding-left: 10px;
+}
 
 .dropdown:hover .dropdown-menu,
 .dropdown-menu:hover {
