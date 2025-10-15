@@ -336,7 +336,7 @@ a:active {
 /* This is for navbar dropdowns only
 /* ============================================================= */
 
-.navbar .dropdown-menu {
+.navbar .dropdown-menu, .navbar-nav  {
   color: var(--cd-navbar-dropdown-link-color) !important;
   background-color: var(--cd-navbar-dropdown-background-color) !important;
   border-radius: var(--cd-navbar-dropdown-border-radius) !important;
