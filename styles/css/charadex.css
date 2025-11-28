@@ -276,7 +276,7 @@ a:active {
   .navbar-brand img {
     max-width: 285px;
     margin-top: -31px;
-    filter: drop-shadow(4px 10px 0px #333);
+    filter: drop-shadow(4px 10px 0px rgba(25,25,25,0.5));
   }
   .navbar-toggler {
     margin-top:-36px;
@@ -923,4 +923,19 @@ align-items: center;
 /* this just like... fully aligns the front page boxes to be the same height thank god */
 .active .card.bg-faded {
     height: 100%;
+}
+/* and this fixes the staff images to look nice on mobile */
+@media (max-width: 575px) {
+  .staff-list img.image.img-thumbnail.img-fluid.m-auto {
+    width: 100px;
+  }
+  .staff-list .col-md-4.col-sm-6.p-2 {
+    width: 100%;
+  }
+  .staff-list .col-md-5.p-2 {
+      width: 26%;
+  }
+  .staff-list .col-md-7.p-2 {
+      width: 74%;
+  }
 }
