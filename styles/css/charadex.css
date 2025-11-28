@@ -887,3 +887,7 @@ align-items: center;
   color: var(--cd-rarity-common-txt);
 }
 
+/* this just like... fully aligns the front page boxes to be the same height thank god */
+.active .card.bg-faded {
+    height: 100%;
+}
