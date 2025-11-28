@@ -927,7 +927,6 @@ align-items: center;
 /* and this fixes the staff images to look nice on mobile */
 @media (max-width: 767px) {
     .staff-list .col-md-5.p-2 {
-      width: 26%;
       text-align: center;
     }
   .staff-list img.image.img-thumbnail.img-fluid.m-auto {
