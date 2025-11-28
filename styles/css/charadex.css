@@ -269,12 +269,14 @@ a:active {
 .navbar-brand img {
   max-width: 285px;
   margin-top: 23px;
+  filter: drop-shadow(4px 10px 0px rgba(0,0,0,0.5));
 }
 
 @media (max-width: 768px) {
   .navbar-brand img {
     max-width: 285px;
     margin-top: -31px;
+    filter: drop-shadow(4px 10px 0px #333);
   }
   .navbar-toggler {
     margin-top:-36px;
