@@ -290,7 +290,7 @@ a:active {
   }
 }
 
-@media (max-width: 286px) {
+@media (max-width: 430px) {
   #header {
     height: 94px!important;
   }
