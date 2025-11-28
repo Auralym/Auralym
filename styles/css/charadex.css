@@ -925,6 +925,15 @@ align-items: center;
     height: 100%;
 }
 /* and this fixes the staff images to look nice on mobile */
+@media (max-width: 767px) {
+    .staff-list .col-md-5.p-2 {
+      width: 26%;
+      text-align: center;
+    }
+  .staff-list img.image.img-thumbnail.img-fluid.m-auto {
+    width: 135px;
+  }
+}
 @media (max-width: 575px) {
   .staff-list img.image.img-thumbnail.img-fluid.m-auto {
     width: 100px;
@@ -934,6 +943,7 @@ align-items: center;
   }
   .staff-list .col-md-5.p-2 {
       width: 26%;
+      text-align: left;
   }
   .staff-list .col-md-7.p-2 {
       width: 74%;
