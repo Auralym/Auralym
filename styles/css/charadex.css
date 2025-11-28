@@ -375,7 +375,7 @@ padding-left: 10px;
   color: var(--cd-navbar-dropdown-link-color-hover) !important;
 }
 /* Navbar Mobile Dropdown Edits to look Nice */
-@media (max-width: 430px) {
+@media (max-width: 389px) {
   .navbar-nav {
     border: 1px var(--cd-navbar-dropdown-divider) solid;
     border-top: none;
@@ -386,9 +386,26 @@ padding-left: 10px;
     top: 10px;
   }
   nav#header {
-   border: 1px var(--cd-navbar-dropdown-divider) solid;
+   border-bottom: 1px var(--cd-navbar-dropdown-divider) solid;
   }
 }
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    border: 1px var(--cd-navbar-dropdown-divider) solid;
+    border-top: none;
+  }
+  div#charadexnav {
+    right: -35px;
+    position: relative;
+    top: -17px;
+  }
+  nav#header {
+   border-bottom: 1px var(--cd-navbar-dropdown-divider) solid;
+  }
+}
+
+
 
 /* ============================================================= */
 /* Footer
