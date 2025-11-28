@@ -372,7 +372,21 @@ padding-left: 10px;
 .navbar .dropdown-header {
   color: var(--cd-navbar-dropdown-link-color-hover) !important;
 }
-
+/* Navbar Mobile Dropdown Edits to look Nice */
+@media (max-width: 286px) {
+  .navbar-nav {
+    border: 1px var(--cd-navbar-dropdown-divider) solid;
+    border-top: none;
+  }
+  div#charadexnav {
+    right: -35px;
+    position: relative;
+    top: 10px;
+  }
+  nav#header {
+   border: 1px var(--cd-navbar-dropdown-divider) solid;
+  }
+}
 
 /* ============================================================= */
 /* Footer
