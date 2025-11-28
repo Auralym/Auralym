@@ -1,0 +1,14 @@
+@media (max-width: 767px;) {
+  .col-md-4.p-2 {
+    width: 26%;
+    text-align: center;
+    display: flex;
+  }
+  .col-md-8.p-2 {
+    width: 74%;
+    text-align: center;
+  }
+  img.image.img-thumbnail.bg-faded.img-fluid.m-auto {
+    width: 135px;
+  }
+}
