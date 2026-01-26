@@ -17,7 +17,7 @@ let charadex = {};
 charadex.site = {
   title: "Auralym",
   url: "https://Auralym.github.io/Auralym/",
-  description: `A tool for organizing small ARPGs and species.`
+  description: `Official masterlist and database for the Auralym closed species.`
 }
 
 /* ==================================================================== */
