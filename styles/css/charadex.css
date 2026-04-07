@@ -623,6 +623,11 @@ a.badge.badge-primary:active {
 /* Misc
 /* ============================================================= */
 
+h4 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
 .text-primary {
   color: var(--cd-secondary-color) !important;
 }
