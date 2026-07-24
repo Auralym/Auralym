@@ -40,6 +40,7 @@ charadex.sheet = {
     staff:         "mods",
     adopts:        "adopts",
     affiliates:    "affiliates",
+    factions:      "factions"
   },
 
   options: {
@@ -210,7 +211,53 @@ charadex.page.prompts = {
 
 };
 
-/* Prompts
+/* Factions
+/* --------------------------------------------------------------- */
+charadex.page.factions = {
+
+  sheetPage: charadex.sheet.pages.factions,
+  sitePage: 'factions',
+  dexSelector: 'charadex',
+  profileProperty: 'faction',
+
+  sort: {
+    toggle: true,
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {
+      'TBA': [],
+    }
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: false,
+    parameters: ['Faction']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+/* Affiliates
 /* --------------------------------------------------------------- */
 charadex.page.affiliates = {
 
