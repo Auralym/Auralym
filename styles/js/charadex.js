@@ -38,6 +38,7 @@ charadex.initialize.page = async (dataArr, config, dataCallback, listCallback, c
     if (folders) folders(entry, config.fauxFolder.folderProperty); // If folders, add folder info
     if (entry.rarity) entry.raritybadge = `<span class="badge badge-${charadex.tools.scrub(entry.rarity)}">${entry.rarity}</span>`; // Adds a rarity badge
     if (entry.tendency) entry.tendencybadge = `<span class="badge badge-${charadex.tools.scrub(entry.tendency)}">${entry.tendency}</span>`; // Adds a tendecy badge
+    if (entry.progress) entry.progress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.progress)}%"></div>`; // Makes progress bar work
   }
 
   // If there's related data, add it
