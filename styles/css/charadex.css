@@ -953,3 +953,12 @@ align-items: center;
       width: 74%;
   }
 }
+
+
+/* Progress Bars */
+.progress {
+	background-color: var(--cd-secondary-color);
+}
+.progress-track {
+	background-color:   var(--cd-primary-color);
+}
