@@ -956,7 +956,7 @@ align-items: center;
 
 
 /* Progress Bars */
-.progress, .mprogress, .fprogress, .wprogress, .vprogress {
+.progress, .mprogress, .fprogress, .wprogress, .vprogress, .sprogress {
 	background-color: var(--cd-secondary-color);
 	border-radius: 0;
 }
