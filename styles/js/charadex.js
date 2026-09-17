@@ -39,6 +39,11 @@ charadex.initialize.page = async (dataArr, config, dataCallback, listCallback, c
     if (entry.rarity) entry.raritybadge = `<span class="badge badge-${charadex.tools.scrub(entry.rarity)}">${entry.rarity}</span>`; // Adds a rarity badge
     if (entry.tendency) entry.tendencybadge = `<span class="badge badge-${charadex.tools.scrub(entry.tendency)}">${entry.tendency}</span>`; // Adds a tendecy badge
     if (entry.progress) entry.progress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.progress)}%"></div>`; // Makes progress bar work
+    if (entry.mprogress) entry.mprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.mprogress)}%"></div>`; // Might
+    if (entry.fprogress) entry.fprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.fprogress)}%"></div>`; // Finesse
+    if (entry.wprogress) entry.wprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.wprogress)}%"></div>`; // Wit
+    if (entry.vprogress) entry.vprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.vprogress)}%"></div>`; // Vigor
+    if (entry.sprogress) entry.sprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.sprogress)}%"></div>`; // Stamina
   }
 
   // If there's related data, add it
