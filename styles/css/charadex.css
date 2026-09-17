@@ -967,10 +967,11 @@ align-items: center;
 
 /* Stats */
 .mroman, .froman, .wroman, .vroman {
-	margin-top: -30px;
+	margin-top: -28px;
     z-index: 3;
     position: relative;
     text-align: right;
+	filter: drop-shadow(1px 1px 0px black);
 }
 
 
