@@ -869,6 +869,9 @@ align-items: center;
 /* ============================================================= */
 /* Rarity
 /* ============================================================= */
+.badge {
+	font-family: var(--cd-card-header-font-family) !important;
+}
 
 .badge-common {
   background-color: var(--cd-rarity-common-bg);
