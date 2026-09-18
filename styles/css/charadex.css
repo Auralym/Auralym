@@ -925,6 +925,16 @@ align-items: center;
   color: var(--cd-rarity-common-txt);
 }
 
+.badge-aurim {
+  background-color: #d3b093;
+  color: var(--cd-rarity-common-txt);
+}
+
+.badge-lilim {
+  background-color: #dc3100;
+  color: var(--cd-rarity-common-txt);
+}
+
 /* this just like... fully aligns the front page boxes to be the same height thank god */
 .active .card.bg-faded {
     height: 100%;
