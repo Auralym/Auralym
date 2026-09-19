@@ -39,7 +39,7 @@ charadex.initialize.page = async (dataArr, config, dataCallback, listCallback, c
     if (entry.rarity) entry.raritybadge = `<span class="badge badge-${charadex.tools.scrub(entry.rarity)}">${entry.rarity}</span>`; // Adds a rarity badge
     if (entry.tendency) entry.tendencybadge = `<span class="badge badge-${charadex.tools.scrub(entry.tendency)}">${entry.tendency}</span>`; // Adds a tendecy badge
     if (entry.subspecies) entry.subspeciesbadge = `<span class="badge badge-${charadex.tools.scrub(entry.subspecies)}">${entry.subspecies}</span>`; // Adds a subspecies badge
-    if (entry.rarity2) entry.rarity2badge = `<span class="badge badge-${charadex.tools.scrub(entry.rarity2)}">${entry.rarity2}</span>`; // Adds a rarity badge for the tendency traits section.
+    if (entry.rarity2) entry.rarity2badge = `<span class="badge badge-${charadex.tools.scrub(entry.rarity2)}">${entry.traitcount}</span>`; // Adds a rarity badge for the tendency traits section.
     if (entry.progress) entry.progress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.progress)}%"></div>`; // Makes progress bar work
     if (entry.mprogress) entry.mprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.mprogress)}%; height: 10px;"></div>`; // Might
     if (entry.fprogress) entry.fprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.fprogress)}%; height: 10px;"></div>`; // Finesse
