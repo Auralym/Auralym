@@ -27,12 +27,12 @@ body {
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color: #2A2525;
+  --cd-body-background-color: #242424;
   --cd-content-background-color: #403D3D;
-  --cd-faded-background-color: #5c5959;
+  --cd-faded-background-color: rgba(25,25,25,0.2);
 
   /* Background Extras */
-  --cd-body-background-image: url();
+  --cd-body-background-image: url(https://images.unsplash.com/photo-1561464276-d2da5ddb97ed?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 
   /* ============================================================= */
   /* Text
@@ -217,6 +217,8 @@ body {
 /* ============================================================= */
 /* General Page Styles
 /* ============================================================= */
+@import url('https://fonts.googleapis.com/css?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900|Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900|Instrument+Sans:ital,wght@0,400..700;1,400..700');
+
 
 body {
 
