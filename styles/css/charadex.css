@@ -952,10 +952,11 @@ align-items: center;
   .staff-list img.image.img-thumbnail.img-fluid.m-auto {
     width: 135px;
   }
-}
 .mobileflip {
 	flex-direction: column;
 }
+}
+
 @media (max-width: 575px) {
   .staff-list img.image.img-thumbnail.img-fluid.m-auto {
     width: 100px;
