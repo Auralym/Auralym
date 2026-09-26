@@ -953,6 +953,9 @@ align-items: center;
     width: 135px;
   }
 }
+.mobileflip {
+	flex-direction: column;
+}
 @media (max-width: 575px) {
   .staff-list img.image.img-thumbnail.img-fluid.m-auto {
     width: 100px;
@@ -988,5 +991,3 @@ align-items: center;
     text-align: right;
 	filter: drop-shadow(1px 1px 0px black);
 }
-
-
