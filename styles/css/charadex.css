@@ -995,6 +995,10 @@ align-items: center;
 
 .auraimg {
 	background-repeat: no-repeat;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	align-items: center;
+	font-style: var(--cd-header-font-family);
+	font-size:20px;
 }
