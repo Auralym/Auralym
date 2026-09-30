@@ -1000,6 +1000,6 @@ align-items: center;
 }
 
 .aura {
-	font-style: var(--cd-header-font-family);
+	font-family: var(--cd-header-font-family);
 	font-size: 36px;
 }
