@@ -998,7 +998,7 @@ align-items: center;
 	height: 200px;
 	width: 200px;
 	text-align: center;
-	align-items: center;
+	align-content: center;
 	font-style: var(--cd-header-font-family);
-	font-size:20px;
+	font-size: 36px;
 }
