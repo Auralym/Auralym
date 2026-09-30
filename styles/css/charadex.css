@@ -997,6 +997,9 @@ align-items: center;
 	width: 200px;
 	text-align: center;
 	align-content: center;
+}
+
+.aura {
 	font-style: var(--cd-header-font-family);
 	font-size: 36px;
 }
