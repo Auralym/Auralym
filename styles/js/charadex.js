@@ -46,7 +46,7 @@ charadex.initialize.page = async (dataArr, config, dataCallback, listCallback, c
     if (entry.wprogress) entry.wprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.wprogress)}%; height: 10px;"></div>`; // Wit
     if (entry.vprogress) entry.vprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.vprogress)}%; height: 10px;"></div>`; // Vigor
     if (entry.sprogress) entry.sprogress = `<div class="progress progress-track" style="width:${charadex.tools.scrub(entry.sprogress)}%;"></div>`; // Stamina
-    if (entry.aura) entry.aura = `<div class="auraimg m-auto justify-content-center" style="background-image:url('https://auralym.github.io/Auralym/assets/${charadex.tools.scrub(entry.aura)}.png'); background-size:contain;"><span class="aura">x${entry.aura}</span></div>`; // Stamina
+    if (entry.aura) entry.aura = `<div class="auraimg m-auto justify-content-center" style="background-image:url('https://auralym.github.io/Auralym/assets/${charadex.tools.scrub(entry.aura)}.png'); background-size:contain;"><span class="aura">+${entry.aura}</span></div>`; // Stamina
   }
 
   // If there's related data, add it
