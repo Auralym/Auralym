@@ -232,6 +232,13 @@ body {
   background-position: center;
   background-size: cover;
 
+	/* TH Style Matching */
+	font-family: 'Instrument Sans';
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 120%;
+
 }
 
 
@@ -629,9 +636,12 @@ h4 {
   margin-bottom: 2px;
 }
 .text-primary {
+  color: var(--cd-primary-color) !important;
+}
+.text-secondary {
   color: var(--cd-secondary-color) !important;
 }
-
+	
 .bg-faded {
   background-color: var(--cd-faded-background-color) !important;
 }
@@ -644,9 +654,23 @@ h4 {
   color: var(--cd-faded-text-color) !important;
 }
 
-h1, h2, h3,
+h1, h2, h3 {
+  font-family: 'Bodoni Moda' !important;
+	font-weight: 400;
+letter-spacing: 0;
+line-height: 120%;
+}
+h1, h2 {
+	text-transform: uppercase;
+}
+h3 {
+	text-transform: lowercase;
+}
 h4, h5, h6 {
-  font-family: var(--cd-navbar-font-family) !important;
+	font-family: 'Instrument Sans';
+font-weight: 400;
+letter-spacing: 0;
+line-height: 120%;
 }
 
 hr {
@@ -974,11 +998,11 @@ align-items: center;
 
 /* Progress Bars */
 .progress, .mprogress, .fprogress, .wprogress, .vprogress, .sprogress {
-	background-color: var(--cd-secondary-color);
+	background-color: #751e05;
 	border-radius: 0;
 }
 .progress-track {
-	background-color:   var(--cd-primary-color);
+	background-color: var(--cd-primary-color);
 	border-radius: 0;
 }
 
