@@ -22,13 +22,13 @@ body {
   /* Secondary Color
   ================================================================ */
   --cd-secondary-color: #d3b093;
-  --cd-secondary-text-color: #fff;
+  --cd-secondary-text-color: #d3beae;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color: #242424;
-  --cd-content-background-color: rgba(36,36,36,0.87);
+  --cd-content-background-color: rgba(0,0,0,0.87);
   --cd-faded-background-color: rgba(25,25,25,0.2);
 
   /* Background Extras */
@@ -51,12 +51,12 @@ body {
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color: #403D3D;
+  --cd-navbar-background-color: #000;
   --cd-navbar-border-color: #d3b093;
   --cd-navbar-brand-color: #d3b093;
   --cd-navbar-brand-color-hover: var(--cd-primary-color);
-  --cd-navbar-text-color: fff;
-  --cd-navbar-link-color: fff;
+  --cd-navbar-text-color: var(--cd-body-text-color);
+  --cd-navbar-link-color: var(--cd-secondary-color);
   --cd-navbar-link-color-hover: var(--cd-primary-color);
   --cd-navbar-font-family: var(--cd-header-font-family);
 
@@ -266,6 +266,7 @@ a:active {
   background-color: var(--cd-navbar-background-color) !important;
   font-family: var(--cd-navbar-font-family) !important;
   z-index: 2000;
+	font-size: 2rem;
 }
 
 .navbar .navbar-brand {
@@ -277,6 +278,7 @@ a:active {
   max-width: 285px;
   margin-top: 23px;
   filter: drop-shadow(4px 10px 0px rgba(0,0,0,0.5));
+  z-index: 2;
 }
 
 @media (max-width: 768px) {
@@ -304,7 +306,7 @@ a:active {
   .navbar-brand img {
     max-width: 125px;
     margin-top: -14px;
-	  z-index: 2;
+
   }
  .navbar-toggler {
     margin-top:-14px;
@@ -656,19 +658,17 @@ h4 {
   color: var(--cd-faded-text-color) !important;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Bodoni Moda' !important;
 	font-weight: 400;
 letter-spacing: 0;
 line-height: 120%;
+text-transform: uppercase;
 }
-h1, h2 {
-	text-transform: uppercase;
+h4 {
+	text-transform: lowercase!important;
 }
-h3 {
-	text-transform: lowercase;
-}
-h4, h5, h6 {
+h5, h6 {
 	font-family: 'Instrument Sans';
 font-weight: 400;
 letter-spacing: 0;
