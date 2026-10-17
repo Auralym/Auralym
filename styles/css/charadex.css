@@ -278,7 +278,6 @@ a:active {
 .navbar-brand img {
   max-width: 246px;
   margin-top: 26px;
-filter: blur(30px);
   z-index: 2;
 	position: relative;
 }
