@@ -160,7 +160,7 @@ body {
 
   /* Background */
   --cd-card-background-color: transparent;
-  --cd-card-header-background-color: var(--cd-card-background-color);
+  --cd-card-header-background-color: rgba(10,10,10,0.8);
 
   /* Text */
   --cd-card-header-font-family: var(--cd-header-font-family);
