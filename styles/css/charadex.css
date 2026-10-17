@@ -353,7 +353,7 @@ a:active {
     border: none !important;
 }
 
-.nav-link.btn.btn-primary:hover, .nav-item.btn:hover {
+.nav-link.btn.btn-primary:hover, .nav-item.btn.btn-primary:hover {
 background: none!important;
 	color: var(--cd-body-text-color);
 }
