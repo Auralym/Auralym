@@ -178,18 +178,18 @@ body {
   ================================================================ */
 
   /* Background */
-  --cd-button-background-color: var(--cd-primary-color);
-  --cd-button-background-color-hover: var(--cd-secondary-color);
+  --cd-button-background-color: transparent;
+  --cd-button-background-color-hover: var(--cd-body-text-color);
 
   /* Text */
-  --cd-button-text-color: var(--cd-primary-text-color);
-  --cd-button-text-color-hover: var(--cd-secondary-text-color);
+  --cd-button-text-color: var(--cd-secondary-color);
+  --cd-button-text-color-hover: var(--cd-primary-color);
 
   /* Border */
   --cd-button-border-width: var(--cd-border-width);
   --cd-button-border-style: var(--cd-border-style);
-  --cd-button-border-color: var(--cd-button-background-color);
-  --cd-button-border-color-hover: var(--cd-button-background-color-hover);
+  --cd-button-border-color: var(--cd-button-text-color);
+  --cd-button-border-color-hover: var(--cd-button-text-color-hover);
   --cd-button-border-radius: var(--cd-border-radius);
 
 
@@ -559,6 +559,7 @@ padding-left: 10px;
   border-style: var(--cd-button-border-style) !important;
   border-width: var(--cd-button-border-width) !important;
   border-radius: var(--cd-button-border-radius) !important;
+	font-family: 'Instrument Sans';
 }
 
 .btn.btn-primary,
