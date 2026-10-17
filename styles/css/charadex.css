@@ -348,7 +348,6 @@ a:active {
 .nav-link.btn, .nav-item.btn {
     text-align: center;
     align-items: center;
-    justify-content: center;
     font-size: 14px;
     border: none !important;
 }
