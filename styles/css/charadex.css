@@ -28,7 +28,7 @@ body {
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color: #242424;
-  --cd-content-background-color: rgba(0,0,0,0.87);
+  --cd-content-background-color: rgba(0,0,0,0.3);
   --cd-faded-background-color: rgba(25,25,25,0.2);
 
   /* Background Extras */
@@ -100,7 +100,7 @@ body {
   --cd-navbar-dropdown-link-color-hover: var(--cd-primary-text-color);
 
   /* Divider */
-  --cd-navbar-dropdown-divider: rgba(255, 255, 255, .12);
+  --cd-navbar-dropdown-divider: rgba(211, 190, 174, 0.53);
   --cd-navbar-dropdown-border-radius: 0 0 var(--cd-border-radius) var(--cd-border-radius);
 
 
@@ -130,7 +130,7 @@ body {
   ================================================================ */
 
   --cd-hr-border-width: var(--cd-border-width);
-  --cd-hr-border-color: var(--cd-border-color);
+  --cd-hr-border-color: var(--cd-navbar-dropdown-divider);
   --cd-hr-border-style: var(--cd-border-style);
 
 
@@ -167,7 +167,7 @@ body {
   --cd-card-header-text-color: #d3b093;
 
   /* Border */
-  --cd-card-border-width: var(--cd-border-width);
+  --cd-card-border-width: 0;
   --cd-card-border-style: var(--cd-border-style);
   --cd-card-border-color: var(--cd-border-color);
   --cd-card-border-radius: var(--cd-border-radius);
@@ -271,7 +271,7 @@ a:active {
 
 .navbar .navbar-brand {
   color: var(--cd-navbar-brand-color) !important;
-  font-size: 2rem;
+  font-size: 16px;
 }
 
 .navbar-brand img {
@@ -658,17 +658,17 @@ h4 {
   color: var(--cd-faded-text-color) !important;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: 'Bodoni Moda' !important;
 	font-weight: 400;
 letter-spacing: 0;
 line-height: 120%;
 text-transform: uppercase;
 }
-h4 {
+h5 {
 	text-transform: lowercase!important;
 }
-h5, h6 {
+h6 {
 	font-family: 'Instrument Sans';
 font-weight: 400;
 letter-spacing: 0;
