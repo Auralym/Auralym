@@ -28,7 +28,7 @@ body {
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color: #242424;
-  --cd-content-background-color: rgba(0,0,0,0.3);
+  --cd-content-background-color: rgba(0,0,0,0.5);
   --cd-faded-background-color: rgba(25,25,25,0.2);
 
   /* Background Extras */
@@ -532,6 +532,9 @@ padding-left: 10px;
   border-style: var(--cd-card-border-style) !important;
   border-color: var(--cd-card-border-color) !important;
   border-radius: var(--cd-border-radius) !important;
+}
+.card .card {
+	border-color: var(--cd-border-color) !important;
 }
 
 .card-header {
