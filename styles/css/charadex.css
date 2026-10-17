@@ -178,7 +178,7 @@ body {
   ================================================================ */
 
   /* Background */
-  --cd-button-background-color: transparent;
+  --cd-button-background-color: var(-content-background-color);
   --cd-button-background-color-hover: var(--cd-body-text-color);
 
   /* Text */
