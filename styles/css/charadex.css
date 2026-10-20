@@ -932,6 +932,7 @@ align-items: center;
 /* ============================================================= */
 .badge {
 	font-family: var(--cd-card-header-font-family) !important;
+	font-weight: 400;
 }
 
 .badge-common {
